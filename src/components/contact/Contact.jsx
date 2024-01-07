@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Alert, Button, Col, Container, Form, Row } from 'react-bootstrap';
+import {  Button, Col, Container, Form, Row } from 'react-bootstrap';
 
 import { ToastContainer, toast } from 'react-toastify';
 
@@ -24,13 +24,7 @@ function Contact() {
             e.stopPropagation();
         }
         else {
-            const formData = {
-                userFullname,
-                userEmail,
-                userSubject,
-                userMessage
-
-            }
+            
             setShow(true);
             toast.success(" Added Successfully!!", {
             position: "top-left",
