@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import {  Button, Col, Container, Form, Row } from 'react-bootstrap';
+import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 
 import { ToastContainer, toast } from 'react-toastify';
 
@@ -24,20 +24,29 @@ function Contact() {
             e.stopPropagation();
         }
         else {
-            
+            const formData = {
+                userFullname,
+                userEmail,
+                userSubject,
+                userMessage
+
+            }
+            console.log(formData);
             setShow(true);
             toast.success(" Added Successfully!!", {
-            position: "top-left",
-            theme: "colored",
-                
+                position: "top-left",
+                theme: "colored",
+
             });
 
         }
 
 
 
+
         setValidated(true);
     }
+    console.log(show);
     const handleUserFullname = (e) => {
         setUserFullname(e.target.value);
 
@@ -61,40 +70,40 @@ function Contact() {
                 <Col className='mt-3 mb-3'>
                     <ToastContainer autoClose={5000} />
                     <div className='divheight'>
-                    <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
-                        <Form.Group className="mb-3">
+                        <Form noValidate validated={validated} onSubmit={handleFormSubmit}>
+                            <Form.Group className="mb-3">
 
-                            <Form.Control type="text" placeholder="Fullname" onChange={(e) => handleUserFullname(e)} required />
-                            <Form.Control.Feedback type='invalid'>Enter Fullname</Form.Control.Feedback>
-                            <Form.Control.Feedback type='valid'>Successfully Entered</Form.Control.Feedback>
-                        </Form.Group>
-                        <Form.Group className="mb-3">
+                                <Form.Control type="text" placeholder="Fullname" onChange={(e) => handleUserFullname(e)} required />
+                                <Form.Control.Feedback type='invalid'>Enter Fullname</Form.Control.Feedback>
+                                <Form.Control.Feedback type='valid'>Successfully Entered</Form.Control.Feedback>
+                            </Form.Group>
+                            <Form.Group className="mb-3">
 
-                            <Form.Control type="email" placeholder="Email" onChange={(e) => handleUserEmail(e)} required />
-                            <Form.Control.Feedback type='invalid'>Enter Valid Email</Form.Control.Feedback>
-                            <Form.Control.Feedback type='valid'>successfully Entered</Form.Control.Feedback>
-                        </Form.Group>
-                        <Form.Group className="mb-3">
+                                <Form.Control type="email" placeholder="Email" onChange={(e) => handleUserEmail(e)} required />
+                                <Form.Control.Feedback type='invalid'>Enter Valid Email</Form.Control.Feedback>
+                                <Form.Control.Feedback type='valid'>successfully Entered</Form.Control.Feedback>
+                            </Form.Group>
+                            <Form.Group className="mb-3">
 
-                            <Form.Control type="text" placeholder="Subject" onChange={(e) => handleUserSubject(e)} required />
-                            <Form.Control.Feedback type='invalid'>Subject</Form.Control.Feedback>
-                            <Form.Control.Feedback type='valid'>Successfully Entered</Form.Control.Feedback>
-                        </Form.Group>
-                        <Form.Group className="mb-3">
+                                <Form.Control type="text" placeholder="Subject" onChange={(e) => handleUserSubject(e)} required />
+                                <Form.Control.Feedback type='invalid'>Subject</Form.Control.Feedback>
+                                <Form.Control.Feedback type='valid'>Successfully Entered</Form.Control.Feedback>
+                            </Form.Group>
+                            <Form.Group className="mb-3">
 
-                            <Form.Control type="text" placeholder="Message" onChange={(e) => handleUserMessage(e)} required />
-                            <Form.Control.Feedback type='invalid'>Message</Form.Control.Feedback>
-                            <Form.Control.Feedback type='valid'>Successfully Entered</Form.Control.Feedback>
-                        </Form.Group>
+                                <Form.Control type="text" placeholder="Message" onChange={(e) => handleUserMessage(e)} required />
+                                <Form.Control.Feedback type='invalid'>Message</Form.Control.Feedback>
+                                <Form.Control.Feedback type='valid'>Successfully Entered</Form.Control.Feedback>
+                            </Form.Group>
 
-                        <Button variant="primary" type="submit" className='button1'>
-                            Submit
+                            <Button variant="primary" type="submit" className='button1'>
+                                Submit
 
-                        </Button>
-                    </Form>
+                            </Button>
+                        </Form>
                     </div>
 
-                   
+
 
 
 
