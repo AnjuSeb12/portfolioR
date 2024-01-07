@@ -1,0 +1,9 @@
+.nav-link{
+    color: white !important;
+
+}
+.nav-link:hover{
+    color: aqua  !important;
+    font-weight: 800;
+
+}

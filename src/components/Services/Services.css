@@ -1,0 +1,28 @@
+.card-img{
+    height:20px !important;
+}
+.project{
+    padding-top: 30px ;
+}
+.alignbottom{
+    padding-bottom: 70px !important;
+}
+.alignThird{
+    padding-bottom: 70px !important;
+}
+.buttonLevel{
+margin-top: 40px;
+margin-left: 70px;
+}
+.color{
+    background-color: white;
+    color: black;
+    border: 1px solid red;
+}
+.marginFirst{
+    margin-top: 70px;
+    margin-left: 50px; 
+}
+.task1:hover{
+    background-color: aqua !important;
+}

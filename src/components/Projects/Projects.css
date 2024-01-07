@@ -1,0 +1,36 @@
+.project {
+    padding-top: 30px;
+}
+
+.task1 {
+
+    background-color: white;
+    border: 1px solid green;
+    color: black;
+}
+
+.taskLink {
+    color: black;
+    text-decoration: none;
+}
+
+.task1:hover {
+
+    background-color: rgb(55, 55, 107) !important;
+    border: none;
+}
+
+.align {
+    padding-bottom: 10px !important;
+}
+
+.marginOne {
+    margin-left: 40px;
+}
+
+.marginThree {
+    margin-left: 80px;
+}
+.marginBottom1{
+    padding-bottom: 40px;
+}

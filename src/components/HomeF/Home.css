@@ -1,0 +1,34 @@
+.textWrapper{
+    padding-top: 100px;
+    padding-left: 300px;
+}
+.text{
+    color: rgb(235, 240, 235);
+}
+.resume{
+    color: black!important;
+    background-color: white !important;
+    border: 1px solid red !important;
+}
+.bottom{
+    padding-bottom: 50px;
+}
+.margin{
+    margin-right: 80px;
+    margin-top: 20px;
+}
+.marginTwo{
+    margin-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+    .textWrapper{
+        padding-top: 100px;
+        padding-left: 100px;
+        
+    }
+    .text{
+        font-size: 20px !important;
+    }
+    
+}
+
