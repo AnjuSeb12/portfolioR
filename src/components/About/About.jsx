@@ -25,9 +25,9 @@ function About() {
                         teamwork.</p>
                         <h4 className='headingAbout'>Education</h4>
                         <p>
-                            Full Stack Development in MERN(Entry Elevate)
+                            Full Stack Web Development in MERN(Entry Elevate)
                         </p>
-                        <p>Master of Computer Science(Bharathiyar University)</p>
+                        <p>Master of Computer Science(Bharathiar University)</p>
                         <p>BSC ComputerScience(Calicut University)</p>
                         
                         <h4 className='headingAbout'>Personal Info</h4>

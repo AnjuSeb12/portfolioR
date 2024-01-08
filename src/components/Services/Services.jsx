@@ -16,7 +16,7 @@ function Services() {
                 <Card.Body>
                     
                   
-                    <Button variant="primary" className='color marginFirst task1'>FrontEnd Development</Button>
+                    <Button variant="primary" className='color marginFirst task1'>FrontEnd Development(React js)</Button>
                     <Card.Title></Card.Title>
                 </Card.Body>
             </Card>
@@ -37,7 +37,7 @@ function Services() {
                 <Card.Body>
                    
                   
-                    <Button variant="primary" className='buttonLevel color task1'>Final Project</Button>
+                    <Button variant="primary" className='buttonLevel color task1'>Full Stack Web Development(MERN)</Button>
                 </Card.Body>
             </Card>
         </Col>
