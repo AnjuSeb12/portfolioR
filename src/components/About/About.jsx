@@ -29,14 +29,14 @@ function About() {
                         </p>
                         <p>Master of Computer Science(Bharathiyar University)</p>
                         <p>BSC ComputerScience(Calicut University)</p>
-                        <h4></h4>
+                        
                         <h4 className='headingAbout'>Personal Info</h4>
                         <p>
                            Name:Anju Sebastian
                         </p>
                         <p>Email:<a href='\contact'className='underline'>christeenaanju@gmail.com</a></p>
                         <p>Phone no:+91-8122789470</p>
-                        <h4></h4>
+                       
                 </Col>
             </Row>
         </Container>

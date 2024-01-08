@@ -29,7 +29,7 @@ function Projects() {
                         <Card.Body>
                             
                           
-                            <Button variant="primary" className='task1 marginOne'><a href='#' className='taskLink' >Portfolio(Reactjs)</a></Button>
+                            <Button variant="primary" className='task1 marginOne'>Portfolio(Reactjs)</Button>
                         </Card.Body>
                     </Card>
                 </Col>
