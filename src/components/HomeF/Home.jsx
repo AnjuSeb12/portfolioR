@@ -39,7 +39,7 @@ function Home() {
           <div className='textWrapper'>
             <h4 className='text'>Hello,I'm Anju Sebastian</h4>
 
-            <h4 className='fourthText text'></h4>
+            <h4 className='fourthText text'>Full Stack Web Developer in MERN</h4>
             <Button variant="Resume" className="resume margin">Resume</Button>&nbsp;&nbsp;
             <Button variant="Contact" className='resume marginTwo'><a href='\contact'className='underlineHome'>Contact</a></Button>
 
